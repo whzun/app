@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/resources/dispatcher-context.xml</config>
 		<config>src/main/resources/app-context.xml</config>
+		<config>src/main/resources/spring-mybatis.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
