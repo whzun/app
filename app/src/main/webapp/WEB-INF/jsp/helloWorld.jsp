@@ -18,7 +18,7 @@ response.setDateHeader("Expires",0);
 %> 
 <body>
 This is a static text line!<br/>
-Message: ${user}
+Message: ${message}
 
 </body>
 </html>
