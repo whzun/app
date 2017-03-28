@@ -12,12 +12,13 @@ import org.whz.app.svc.BookService;
 public class HelloControler {
 	@Autowired
 	private BookService bookService;
-   @RequestMapping("/xxx")  
-   public String toIndex(Model model){  
-       //model.addAttribute("user", @Path);  
-	   Book book = bookService.getBookById(1);
-	   model.addAttribute("message","xxx");
-	   model.addAttribute("book", book);
-       return "helloWorld";  
-   }
+
+	@RequestMapping("/xxx")
+	public String toIndex(Model model) {
+		// model.addAttribute("user", @Path);
+		Book book = bookService.getBookById(1);
+		model.addAttribute("message", "xxx");
+		model.addAttribute("book", book);
+		return "helloWorld";
+	}
 }
