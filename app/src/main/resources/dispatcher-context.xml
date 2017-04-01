@@ -12,6 +12,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 
     <context:component-scan base-package="org.whz"/>
+    
     <mvc:annotation-driven/>
     <mvc:resources location="/css/" mapping="/css/**">
         <mvc:cache-control max-age="120"/>
